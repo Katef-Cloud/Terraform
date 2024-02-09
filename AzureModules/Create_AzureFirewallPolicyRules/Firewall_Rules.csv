@@ -9,4 +9,4 @@ CollectionGroup5,1004,Net-Collection-1,Network,100,Allow,Rule2,IPGroup,test2,"TC
 CollectionGroup6,1005,App-Collection-1,Application,200,Allow,Rule 1,IPGroup,test4,https,,yes,URL,"www.microsoft.com/en-eg, www.youtube.com/shorts",,
 CollectionGroup6,1005,App-Collection-1,Application,200,Allow,Rule 2,IPAddress,*,HTTPS:4430,,yes,FQDN,"www.yahoo.com, www.microsoft.com",,
 CollectionGroup7,1006,Dnat-collection-1,NAT,100,Dnat,Rule1,IPAddress,192.168.71.12,"TCP,UDP",443,,,12.10.123.2,192.168.1.32,80
-CollectionGroup7,1006,Dnat-collection-1,NAT,100,Dnat,Rule2,IPAddress,*,"TCP,UDP","443, 80",,,132.123.31.12,192.168.1.23,50
+CollectionGroup7,1006,Dnat-collection-1,NAT,100,Dnat,Rule2,IPAddress,*,"TCP,UDP",443,,,132.123.31.12,192.168.1.23,50
